@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background-color: gray;
+    color:#FFF;
+    padding: 10px 10px;
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    top:0px;
+}
+.head1{
+     width: 50%;
+     float: left;
+     overflow: hidden;
+     
+}
+.head1 p{
+    text-align: center;
+}
+
+.head2 {
+    
+    width: 50%;
+     float: left;
+     overflow: hidden;
+     
+   
+}
+
+.head2 a {
+    text-decoration: none;
+    margin-left: 500px;
+    width: 150px;
+    text-align: center; 
+    box-shadow: inset 2px 2px 3px #f1f1f1;
+    border-left: 5px;
+    padding: 4px 8px;
+    background-color: red;
+    color: #FFF;
+    margin-left: 10px;
+    display: block;
+    float: right;
+    
+}
+.menu{
+    width:20%;
+    position: fixed;
+    overflow: auto;
+}
+ul{
+    list-style-type: none;
+    width:200px;
+    background-color: #f1f1f1;
+   
+}
+li a{
+    display: block;
+    color: red;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    
+}
+li{
+    text-align: left;
+}
+li:last-child {
+    border-bottom: none;
+}
+
+li a.abc{
+    background-color: green;
+    color:white;
+}
+li a:hover:not(.abc) {
+    background-color: green;
+    color:white;
+}
+.content{
+    margin-left:220px;
+    margin-top: 50px;
+}
+.content img{
+    width:120px;
+    height:120px;
+   
+}
+.first{
+    padding: 13px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+}
+.first:after{
+    display:block;
+    content:" ";
+    clear: both;
+}
+.image{
+    width:15%;
+    float:left;
+    overflow: hidden;
+    display: block;
+}
+.text{
+    width:80%;
+    float:left;
+    overflow: hidden;
+    display: block;
+}
+.text h2{
+    background-color: gray;
+    padding: 5px 10px;
+}
+.text p{
+    background-color: papayawhip;
+    padding: 5px 10px;
+}
